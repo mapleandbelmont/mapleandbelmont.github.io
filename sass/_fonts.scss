@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'ashbury-light';
+    src: url('../fonts/AshburyLig-webfont.eot');
+    src: url('../fonts/AshburyLig-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AshburyLig-webfont.woff') format('woff'),
+         url('../fonts/AshburyLig-webfont.ttf') format('truetype'),
+         url('../fonts/AshburyLig-webfont.svg#ashbury-lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'applewine';
+    src: url('../fonts/applewine-webfont.eot');
+    src: url('../fonts/applewine-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/applewine-webfont.woff2') format('woff2'),
+         url('../fonts/applewine-webfont.woff') format('woff'),
+         url('../fonts/applewine-webfont.ttf') format('truetype'),
+         url('../fonts/applewine-webfont.svg#applewineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.applewine {
+	font-family: 'applewine', sans-serif;
+}
+
+.ashbury-light {
+	font-family: 'ashbury-light', sans-serif;
+}

@@ -1,0 +1,80 @@
+.list_carousel {
+	background-color: $white;
+	margin: 0 0 0 60px;
+	position: relative;
+	width: 360px;
+}
+.list_carousel ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.list_carousel li {
+	font-size: 40px;
+	color: #999;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+.list_carousel.responsive {
+	background: $charcoal;
+	margin-left: 0;
+	width: auto;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+//------------------------------------------------
+// Pager styles
+//------------------------------------------------
+.prev {
+	background: $yellow;
+	height: 40px;
+	left: 0;
+	margin-left: 10px;
+	position: absolute;
+	top: 50%;
+	width: 40px;
+	@include border-radius(50%);
+}
+
+.next {
+	background: $yellow;
+	height: 40px;
+	margin-right: 10px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 40px;
+	@include border-radius(50%);
+}
+
+.pager {
+	float: left;
+	text-align: center;
+
+	a {
+		background: $yellow;
+		height: 5px;
+	  text-decoration: none;
+		width: 5px;
+		@include border-radius(50%);
+
+		&:hover,
+		&.selected {
+	    background: red;
+    }
+	}
+}
+
+#mb__carousel {
+	ul {
+
+	}
+}

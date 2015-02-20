@@ -1,0 +1,44 @@
+//-----------------------------------------
+// Grid Mixins
+//-----------------------------------------
+
+@mixin breakpoint($point) {
+  @if $point == tablet {
+    @media (min-width: 450px) { @content; }
+  }
+  @else if $point == desktop {
+    @media (min-width: 800px)  { @content; }
+  }
+}
+
+// Absolute centering, works only if height is provided and
+// Parent has position: absolute; or position: relative;
+@mixin center_me($height: auto) {
+  bottom: 0px;
+  height: $height;
+  left: 0px;
+  margin: auto;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+//-----------------------------------------
+// Style Mixins
+//-----------------------------------------
+
+@mixin box-sizing($bs) {
+  -webkit-box-sizing: $bs;
+     -moz-box-sizing: $bs;
+      -ms-box-sizing: $bs;
+       -o-box-sizing: $bs;
+          box-sizing: $bs;
+}
+
+@mixin border-radius($br) {
+  -webkit-border-radius: $br;
+     -moz-border-radius: $br;
+      -ms-border-radius: $br;
+       -o-border-radius: $br;
+          border-radius: $br;  
+}

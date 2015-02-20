@@ -1,0 +1,55 @@
+.mb__header {
+  background: $charcoal url(../img/chalkboard-texture.jpg) repeat center center;
+  background-size: cover;
+  border-bottom: 4px solid $yellow;
+  color: $white;
+  width: 100%;
+}
+
+.mb__logo {
+  h1 {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+.logo__svg {
+  display: inline-block;
+  height: 50px;
+  width: 67px;
+  vertical-align: middle;
+
+  svg {
+    fill: $white;
+  }
+}
+.mb__menu {
+  ul {
+    display: inline-block;
+  	float: right;
+  	margin: 28px auto;
+  	right: 0;
+  	width: 63%;
+  }
+
+  li {
+    display: inline-block;
+    padding: 0 10px;
+    vertical-align: middle;
+
+    a {
+    	color: $white;
+    	text-decoration: none;
+
+    	&:hover {
+    		color: $yellow;
+    		text-decoration: none;
+    	}
+    }
+  }
+}

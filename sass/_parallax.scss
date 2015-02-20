@@ -1,0 +1,13 @@
+.mb__parallax {
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+
+	// &--homepage {
+	//   background: $white url(../img/slide-messy-desk.jpg);
+	// }
+}
+
+.mb__parallax--homepage {
+	background: $white url(../img/slide-messy-desk.jpg);
+}
